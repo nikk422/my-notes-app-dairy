@@ -6,7 +6,7 @@ import Navbar from "./Componants/Navbar/Navbar";
 import FilterNotes from "./Componants/FilterNotes/FilterNotes";
 import Login from "./pagess/Authentication/Login/login";
 import Signup from "./pagess/Authentication/Signup/SignUp";
-import RequireAuth from "./PrivateAuth/RequireAuth";
+import RequireAuth from "../src/PrivateAuth/RequireAuth";
 import Notes from "./pagess/Notes/Note";
 
 function App() {
