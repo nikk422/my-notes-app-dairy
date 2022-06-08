@@ -1,0 +1,20 @@
+.navbar-container{
+    background-color: rgb(15 23 42);
+    padding: 2rem;
+    color:var( --simple-white);
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-heading{
+    color:var( --simple-white);
+}
+.userIcon{
+    color:var( --simple-white);
+    font-size:1.6rem;
+    margin:0.2rem;
+}

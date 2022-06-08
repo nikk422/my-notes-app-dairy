@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Bodoni:ital@1&family=Permanent+Marker&family=Roboto+Slab&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Tapestry&display=swap');
+
+.sidebar-container{
+    display: flex;
+    border: var(--border-siz);
+    background-color: rgb(15 23 42);
+    padding:2rem;
+    min-height: 87.5vh;
+    max-height: 100vh;
+    font-family: 'Playfair Display SC', serif;
+    position:sticky;
+    top:5.7rem;
+}
+
+.lib-sidebar li{
+    margin-top:3rem;
+    font-weight: bold;
+    font-size: var(--primary-font-size);
+    color:var( --simple-white);
+    
+}
+.lib-sidebar li span{
+    margin-left:1.2rem;
+}
+.lib-sidebar li:hover{
+    text-decoration:underline;
+    text-decoration-color:var(--Dark-black);
+
+
+}
+
+
+@media screen and (max-width: 641px) {
+    body {
+      font-size:0.7rem;
+    }
+  }
