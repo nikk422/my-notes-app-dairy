@@ -1,0 +1,11 @@
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+    font-size: var(--primary-font-size);
+
+}
+.filterIcon{
+    border: var(--border-size);
+    padding: 0.5rem;
+}
