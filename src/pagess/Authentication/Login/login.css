@@ -1,0 +1,59 @@
+.auth-container{
+  color:var(--Dark-black);
+  height:87.5vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.auth-contain{
+    display: flex;
+    width:21rem;
+    flex-direction: column;
+    align-items: center;
+    border:var( --border-size);
+    background-color: rgb(156 163 175);
+    gap:0.7rem;
+    padding: 1.1rem;
+    border-radius:0.5rem;
+  
+}
+.auth-detail-input{
+    width: 18.5rem;
+    outline:none;
+    padding:0.2rem;
+    display: flex;
+    border:var( --border-size);
+    margin:0.1rem;
+    background-color: rgb(100 116 139);
+    color:var(--Dark-black);
+
+}
+::placeholder{
+    color:var(--Dark-black);
+}
+.forgetLink{
+    margin-left:0.5rem ;
+}
+.checkbox-remember-conditions{
+    margin-left: -3rem;
+}
+.loginbtn-createAcount{
+    width:17rem;
+    padding:0.1rem;
+    font-size: var(--primary-font-size);
+    background-color:rgb(63, 98, 110);
+    color:var(--Dark-black);
+}
+.createBtn-alreadyBtn{
+    border:none;
+    background-color:var(--Dark-black);
+    color:var(--simple-white);
+    padding:0.1rem;
+}
+.login-guest{
+    width:15rem;
+    font-size: var(--primary-font-size);
+    background-color:rgb(112, 186, 211);
+    color:var(--Dark-black);
+}

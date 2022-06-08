@@ -1,0 +1,25 @@
+:root{
+    --primary-background-color: rgb(148 163 184);
+    --Dark-black: black;
+    --border-size: 2px solid black;
+    --simple-white: white;
+    --primary-font-size:1.2rem;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 12.5rem 1fr 9rem;
+    gap:1.2rem; 
+    font-family: 'Playfair Display SC', serif;
+    background-color: var(--primary-background-color);
+
+}
+.note-icon{
+    font-size: var(--primary-font-size);
+    margin:0.5rem;
+}
+.icon-container{
+    display:flex;
+    justify-content:space-between;
+}

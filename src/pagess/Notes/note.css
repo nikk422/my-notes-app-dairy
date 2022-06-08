@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Bodoni:ital@1&family=Permanent+Marker&family=Roboto+Slab&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Tapestry&display=swap');
+
+
+.react-not-contain{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:1rem;
+    gap:2rem;
+    padding:1rem;
+}
+.reactQuil-notee{
+    display:flex;
+    flex-direction: column;
+    border:var( --border-size);
+
+}
+
+.quill-section{
+    height: 11rem;
+}
+.textArea-notes{
+    width:31.5rem;
+    height:8.1rem;
+}
+.pri-input{
+    width:31.5rem;
+    background-color:var(--primary-background-color);
+    outline: none;
+    padding:0.4rem;
+    border:none;
+}
+
+.addNote-color{
+    display:flex;
+    justify-content: space-between;
+     padding: 0.4rem;
+} 
+.color-input{
+    height:2rem;
+    width:2rem;
+    border:var( --border-size);
+
+}
+.created-note{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    width:40rem;
+    border:var( --border-size);
+    padding: 1rem;
+    border-radius: 0.4rem;
+
+   
+}
+.created-note-container{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-top: 2rem;
+    align-content: center;
+    word-wrap: break-word;
+}
+.saveBtn{
+    padding:0.2rem;
+    font-size: var(--primary-font-size);
+    font-weight:bold;
+}
+.Priority-options{
+    border:var( --border-size);
+    padding: 0.5rem;
+}
+select{
+    cursor: pointer;
+    font-size: var(--primary-font-size);
+}
+
+.output-contain{
+    display:flex;
+    justify-content:center;
+}
+

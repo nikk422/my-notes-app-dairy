@@ -1,0 +1,33 @@
+.home-container{
+    padding:0.5rem;
+    height:87.5vh;
+}
+.home-contain{
+    display: flex;
+    gap:5rem;
+    padding:2rem;
+    margin:1rem;
+    border:var( --border-size);
+}
+.hero-img{
+    margin:1rem;
+    width:45%;
+}
+.notes-headings{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 30%;
+}
+.note-heading{
+    color:rgb(82, 22, 139);
+    margin-top:0.5rem;
+}
+.para{
+    margin-top:1rem;
+}
+.joinBtn{
+    width:7vw;
+    padding:0.5rem;
+    font-weight: bold;
+}
